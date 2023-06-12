@@ -28,5 +28,8 @@ class Jeep:
 	def park(self):
 		return f"""You are parking."""
 
+	def crash(self):
+		return f"""You are crashed."""
 
-print(issubclass(Jeep, Vehicle))
+
+print(issubclass(Vehicle, Jeep))
